@@ -1,0 +1,54 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.quizContainer{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+}
+
+.quizQuestion{
+    display: flex;
+    flex-direction: column;
+}
+
+.quizQuestion h2{
+    margin:5px 10px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.answerDiv{
+    margin:10px 0px;
+    padding:10px;
+}
+
+
+.quizQuestion input{
+    margin:0px 10px;
+}
+
+.scoreDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:200px;
+}
+
+.scoreDiv h2{
+    font-size:2.5rem;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.scoreDiv p{
+    font-size:1.8rem;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.scoreDiv a{
+    font-size:1.2rem;
+    color:black;
+}
